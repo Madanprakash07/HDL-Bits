@@ -1,4 +1,3 @@
-// synthesis verilog_input_version verilog_2001
 module top_module(
     input clk,
     input a,
