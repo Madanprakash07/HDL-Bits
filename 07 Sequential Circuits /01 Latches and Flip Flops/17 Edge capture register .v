@@ -11,6 +11,6 @@ module top_module (
             if(reset)
                 out <= 0;
             else
-                out <= out | (in_temp & ~in);
+                out <= out | (temp & ~in);
         end
 endmodule
